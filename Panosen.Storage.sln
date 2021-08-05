@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.Storage.Qiniu", "Panosen.Storage.Qiniu\Panosen.Storage.Qiniu.csproj", "{386DAE03-69B4-484C-9DA0-858B9521E33A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.Storage.Qiniu", "Panosen.Storage.Qiniu\Panosen.Storage.Qiniu.csproj", "{386DAE03-69B4-484C-9DA0-858B9521E33A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.Storage.Local", "Panosen.Storage.Local\Panosen.Storage.Local.csproj", "{F2D01A06-52A0-41C5-BE46-4DCD26E903C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{386DAE03-69B4-484C-9DA0-858B9521E33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386DAE03-69B4-484C-9DA0-858B9521E33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386DAE03-69B4-484C-9DA0-858B9521E33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D01A06-52A0-41C5-BE46-4DCD26E903C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D01A06-52A0-41C5-BE46-4DCD26E903C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D01A06-52A0-41C5-BE46-4DCD26E903C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D01A06-52A0-41C5-BE46-4DCD26E903C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
